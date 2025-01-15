@@ -1,2 +1,2 @@
 # Reverse-Zero
-Inyectar una reverse shell con tu flipperzero
+Como inyectar una reverse shell con tu flipperzero.
