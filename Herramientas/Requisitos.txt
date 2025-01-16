@@ -1,3 +1,4 @@
 Flipper Zero
+Un PC 
 Usb tipo C para conectar el Flipper al ordenador
 Dos máquinas virtuales (En mi caso, Kali Linux como máquina atacante y Windows 10 como máquina atacada)
