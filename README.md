@@ -1,4 +1,47 @@
-# PASOS PARA INYECTAR UNA REVERSESHELL EN UN EQUIPO DESDE UN FLIPPER ZERO.
+# REVERSE-ZERO
+
+
+# Descripción
+
+Reverse-Zero es un proyecto de investigación y desarrollo en el ámbito del hacking, centrado en la exploración de las capacidades de programación del Flipper Zero. En particular, se enfoca en la aplicación Bad USB, que permite ejecutar cargas útiles automatizadas a través de un dispositivo USB.
+
+Este proyecto representa mi primera incursión en el mundo del hacking, donde he investigado a fondo el uso de PowerShell y otros lenguajes de scripting para aprovechar las funcionalidades del Flipper Zero.
+
+# Características
+
+Automatización de scripts para Bad USB en Flipper Zero.
+
+Desarrollo de payloads personalizados con PowerShell.
+
+Análisis de seguridad y pruebas de penetración controladas.
+
+# Requisitos
+
+Para utilizar este proyecto, necesitarás:
+
+Un dispositivo Flipper Zero.
+
+Un editor de texto (VS Code, Notepad++, etc.).
+
+Conocimientos básicos de PowerShell.
+
+
+# Instalación y uso.
+
+1.  Clonar el repositorio
+   ```sh g
+    git clone https://github.com/90l3m0np13/Reverse-Zero/blob/main/REVERSE_SHELL.txt
+   ```
+2.  Abre el archivo en un editor de texto y cambia los apartados de IP y Puerto por los de tu máquina atacante.
+3.  Carga los scrips en tu Flipper Zero
+
+
+     - Copia los archivos al directorio correspondiente en la memoria del Flipper.
+     - Ejecuta el payload desde la aplicación Bad USB.
+
+# Crea tu ReverseShell desde 0
+
+
 
 1. Crea una reverseshell desde 0, o hazla en la página https://www.revshells.com/. 
 
