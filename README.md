@@ -44,8 +44,9 @@
       ```
  1.  Utilizamos este String para para deshabilitar el Windows Defender.
       ```sh g
-      powershell -command 'Set-MpPreference -DisableRealtimeMonitoring $true -DisableScriptScanning $true -DisableBehaviorMonitoring $true -DisableIOAVProtection $true -DisableIntrusionPreventionSystem $true'
-      ´´´
+      powershell -command 'Set-MpPreference -DisableRealtimeMonitoring $true -DisableScriptScanning $true -DisableBehaviorMonitoring $true -DisableIOAVProtection $true -  
+      DisableIntrusionPreventionSystem $true'
+      ```
  1.  Desactivamos el Firewall.
       ```sh g
       Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
