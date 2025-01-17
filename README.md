@@ -61,7 +61,10 @@
       ```
  1.  Una vez creado el txt, lo guardamos. Conectamos el Flipper al PC mediante la aplicación qflipper, que podemos descargar en el siguiente      enlace: https://flipperzero.one/update
  2.  Dentro de la aplicación, buscamos el fichero Read File y pegamos el txt en la carpeta BADUSB.
- 3.  Y por último, solo queda ejecutar el Scrip que hemos creado desde el flipper zero.
+
+    
+     ![imagen](https://github.com/90l3m0np13/Reverse-Zero/blob/main/im%C3%A1genes/badusb(simplified).png)
+ 4.  Y por último, solo queda ejecutar el Scrip que hemos creado desde el flipper zero.
 
 
 
