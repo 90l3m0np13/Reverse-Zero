@@ -63,7 +63,7 @@
  2.  Dentro de la aplicación, buscamos el fichero Read File y pegamos el txt en la carpeta BADUSB.
 
     
-     ![imagen](https://github.com/90l3m0np13/Reverse-Zero/blob/main/im%C3%A1genes/badusb(simplified).png)
+     ![imagen](https://github.com/90l3m0np13/Reverse-Zero/blob/main/im%C3%A1genes/badusb.png)
  4.  Y por último, solo queda ejecutar el Scrip que hemos creado desde el flipper zero.
 
 
