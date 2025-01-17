@@ -32,9 +32,9 @@ Conocimientos básicos de PowerShell.
 # Instalación y uso.
 
 1.  Clonar el repositorio
-   ```sh g
-    git clone https://github.com/90l3m0np13/Reverse-Zero/blob/main/REVERSE_SHELL.txt
-   ```
+      ```sh g
+       git clone https://github.com/90l3m0np13/Reverse-Zero/blob/main/REVERSE_SHELL.txt
+      ```
 2.  Abre el archivo en un editor de texto y cambia los apartados de IP y Puerto por los de tu máquina atacante.
 3.  Carga los scrips en tu Flipper Zero
 
