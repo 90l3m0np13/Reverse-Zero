@@ -114,6 +114,15 @@ Conocimientos básicos de PowerShell.
 
 
 
+# Conclusión 
+
+Este proyecto está diseñado con fines educativos y de investigación en seguridad informática. Se recomienda su uso únicamente en entornos controlados y con el consentimiento explícito de los propietarios de los sistemas involucrados. El uso indebido de estas herramientas puede tener implicaciones legales y éticas. El autor no se responsabiliza de cualquier daño o consecuencia derivada de su uso inapropiado.
+
+
+
+
+
+
 
 
 
